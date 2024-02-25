@@ -1,0 +1,99 @@
+#root{
+    background-color: #000;
+    background-image: url("./Images/Group\ 231.png");
+    height: 300vh;
+    background-position: center;
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll; */
+    /* background-position: center; */
+    overflow-y: hidden;
+}
+#nlink{
+    color: #E3E3E3;
+}
+.login-btn{
+    background-color: transparent;
+    border: 2px solid #E3E3E3;
+    color: #E3E3E3;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.groove{
+    font-size: 3em;
+}
+.event-div-2{
+    /* margin-top: 50em; */
+}
+.dep-text{
+    color: rgba(19, 19, 19, 0.8);
+
+    /* background: linear-gradient(36.83deg,rgba(19, 19, 19, .8) .71%,#13131300 170.39%); */
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: #0000;
+    font-family: one-plus-black;
+
+
+    background: linear-gradient(180.83deg, rgba(227, 227, 227, 0.8) 0.71%, rgba(255, 238, 238, 0) 170.39%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+
+}
+.background-div{
+    /* position: absolute; */
+    min-height: 617px;
+    background-image: url('./Images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+
+}
+.event-div-1{
+    position: relative;
+}
+.line{
+    border: 1px solid #E3E3E3;
+    opacity: 0.5;
+    
+}
+.res-div{
+    /* overflow: hidden; */ 
+}
+.hero{
+    background-color: #000;
+    /* background-image: url('./Images/Rectangle\ 190.png'); */
+    border-radius: 60px 0px 0px 60px;
+    color: #E3E3E3;
+}
+.hero-text{
+    color: #E3E3E3;
+    font-size: 1em;
+}
+.dep-text1{
+    font-family: one-plus-black;
+    font-size: 2em;
+}
+@media screen and (min-width: 768px) {
+    .dep-div{
+        width: 80%;
+    }
+    .event-head{
+        font-size: 5em; 
+    }    
+    .event-div-1{
+        border-left: 2px solid #E3E3E3;
+        opacity: 0.5;
+        width: 80%;
+    }
+    .grab{
+        font-size: 3em ;
+    }
+}

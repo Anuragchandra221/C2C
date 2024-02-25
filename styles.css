@@ -1,0 +1,227 @@
+body{
+    background-image: url('./Images/Rectangle\(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-image: url('./Images/footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 60px 60px 0px 0px;
+}
+#navbar{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+#root{
+    overflow-x: hidden;
+    position: relative;
+    height: 100%;
+}
+
+.mainImg{
+    width: 100%;
+}
+.hero-div{
+    height: 100vh;
+}
+.box{
+    display: none;
+}
+
+.box-2{
+    display: block;
+    width: 100%;
+}
+.box-2>img{
+    width: 100%;
+}
+.box>img{
+    width: 100%;
+}
+.hero-btn{
+    /* height: 2em; */
+    background-color: #DFFF80;
+    border: 2px solid #DFFF80;
+    border-radius: 15px;
+}
+.hero-text{
+    font-family: one-plus-black;
+    /* Grab your Tickets now here. */
+    width: 420px;
+    /* height: 225px; */
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: rgba(19, 19, 19, 0.8);
+
+    background: linear-gradient(36.83deg,rgba(19, 19, 19, .8) .71%,#13131300 170.39%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: #0000;
+    font-family: one-plus-black;
+    min-width: 200px;
+    position: relative;
+}
+.footer-text{
+    font-family: "Alumni Sans", sans-serif;
+    opacity: 0.7;
+}
+.number{
+    color: #35393E;
+    font-family: american;
+}
+.oneplus{
+    font-family: one-plus-black;
+}
+.number-text{
+    color: #DFFF80;
+    font-family: american;
+}
+.line{
+    border: 1px solid #35393E;
+    width: 100%;
+    /* Line 37 */
+    opacity: 0.5 ;
+}
+.footer-end{
+    font-family: "Alumni Sans", sans-serif; 
+    opacity: .8;
+    font-size: 1.5em;
+}
+.icons{
+    opacity: 0.7;
+}
+.main-line{
+    /* border: 1px solid #35393E; */
+    width: 95%;
+    /* Line 37 */
+    /* opacity: 0.5 ; */
+}
+.login-btn{
+    background-color: transparent;
+    border: 2px solid #35393E;
+    color: #35393E;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.explore-1{
+    position: absolute;
+    width: 291px;
+    height: 193px;
+    left: -112px;
+    top: 515px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.res-div{
+    width: 90%;
+}
+.explore-2{
+    position: absolute;
+    width: 291px;
+    height: 193px;
+    left: 1326px;
+    top: 206px;
+}
+.main-line>hr{
+    border: 1px solid #35393E;
+    opacity: 0.5;
+    width: 100%;
+}
+.first-section{
+    background-image: url('./Images/Rectangle\(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 60px 60px 0px 0px;
+}
+#nlink{
+    font-family: one-plus-black;
+    /* Grab your Tickets now here. */
+
+    color: rgba(19, 19, 19, 0.8);
+
+    background: linear-gradient(36.83deg,rgba(19, 19, 19, .8) .71%,#13131300 170.39%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: #0000;
+    font-family: one-plus-black;
+    min-width: 150px;
+}
+.active{
+    color: #DFFF80;
+}
+.yellow-btn{
+    background-color: #DFFF80;
+    color: #35393E;
+    font-size: 0.5em;
+    border-radius: 10px;
+}
+#navbarTogglerDemo01{
+    transform: translateY(600px);
+}
+.number{
+    font-size: 4em;
+}
+.number-text{
+    font-size: 2em;
+}
+@media screen and (min-width: 768px) {
+    .box{
+        position: absolute;
+        width: 100%;
+        top: 36%;
+        display: block;
+    }
+    .first-section{
+        margin-top: 28em;
+    }
+    .box-2{
+        display: none;
+    }
+    #navbarTogglerDemo01{
+        transform: translateY(0px);
+    }
+    .res-div{
+        width: 80%;
+        margin-inline: auto;
+        /* overflow-x: hidden; */
+    }
+    .number{
+        font-size: 6em;
+    }
+    .icons{
+        font-size: 2em;
+    }
+    .footer-text{
+        font-size: 3em;
+    }
+    .number-text{
+        font-size: 2em;
+    }
+    .section-head{
+        font-size: 3em ;
+    }
+}
+
+@font-face {
+    font-family: one-plus-black;
+    src: url(./Fonts/SlateForOnePlus-Black.ttf);
+}
+@font-face {
+    font-family: american;
+    src: url(./Fonts/American\ Captain.otf);
+}
