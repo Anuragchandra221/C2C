@@ -17,12 +17,28 @@ body{
     position: relative;
     height: 100vh;
     box-sizing: border-box;
-    background-image: url('./Images/Rectangle\(1\).png');
+    /* background-image: url('./Images/Rectangle\(1\).png'); */
     margin: 0;
     padding: 0;
 }
 #root{
+    min-height: 300vh;
+    overflow-y: hidden;
+    background-image: url('./Images/Rectangle\(1\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    /* overflow-y: hidden; */
 }
+#root::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  #root {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 footer{
     background-image: url('./Images/footer.png');
     background-repeat: no-repeat;
@@ -197,7 +213,7 @@ footer{
     .box{
         position: absolute;
         width: 100%;
-        top: 36%;
+        top: 11%;
         display: block;
     }
     .first-section{
