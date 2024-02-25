@@ -1,7 +1,7 @@
 #root{
     background-color: #000;
     background-image: url("./Images/Group\ 231.png");
-    height: 300vh;
+    min-height: 300vh;
     background-position: center;
     background-size: 100% 100%;
     /* background-repeat: no-repeat;
